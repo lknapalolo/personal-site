@@ -1,0 +1,141 @@
+body{
+  text-align: left;
+  background-size: cover;
+  background-color: #f8f8f8;
+  background-repeat: no-repeat;
+  font-family:helvetica,arial;
+  color: black;
+    }
+
+a:link{
+  color: rgba(0,0,0,1);
+  text-decoration:none;
+    }
+
+a:active{
+  color: rgba(0,0,0,1);
+  text-decoration:none;
+    }
+
+a:visited{
+  color: rgba(0,0,0,1);
+  text-decoration:none;
+    }
+
+a:hover{
+  color: rgba(0,0,0,1);
+  text-decoration:none;
+    }
+
+.header{
+  text-align:center;
+  font-family:timesnewroman;
+  color: rgb(70,70,70);
+  width:1000px;
+  font-size:10pt;
+    }
+
+.welcome{
+  width:150px;
+  height:200px;
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:1;
+  overflow:hidden;
+  background-color: rgba(248,248,248,.75);
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.welcomeheader{
+  text-decoration: underline;
+  text-align:justify;
+  color:black;
+  font-size:9pt;
+  letter-spacing:4pt;
+  font-family:helvetica, arial;
+  line-height:11pt;
+}
+
+.welcomesub{
+  text-align:justify;
+  font-style:italic;
+  color:black;
+  font-size:7.5pt;
+  letter-spacing:2pt;
+  font-family:helvetica, arial;
+  line-height:8pt;
+}
+
+.welcometext{
+  padding-top: 13px;
+  font-size:9pt;
+  letter-spacing: 3pt;
+  font-family:helvetica, arial;
+  text-align:justify;
+  margin:5px;
+  overflow:scroll;
+  color:black;
+  line-height:11pt;
+}
+
+.shell:hover .welcome {
+  opacity:0;
+
+}
+.shell {
+  width:150px;
+  height:200px;
+  overflow:hidden;
+  position:relative;
+  margin: 40px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.shell:hover .mouseover {
+  opacity:1;
+}
+
+.mouseover {
+  width:150px;
+  height:200px;
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:0;
+  overflow:scroll;
+  background-color: rgba(248,248,248,.75);
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.text {
+  padding-top: 50px;
+  font-size:9pt;
+  letter-spacing: 3pt;
+  font-family:helvetica, arial;
+  text-align:justify;
+  margin:5px;
+  overflow:scroll;
+  color:black;
+}
+
+.contactme {
+  padding-top:20px;
+  margin: 2px;
+  font-size:7.5pt;
+  font-family:helvetica,arial;
+  line-height:12px;
+  text-align:justify;
+    }
+    
+.contactme2{
+  font-size:7.5pt;
+  font-family:helvetica,arial;
+  line-height:12px;
+  text-align:justify;
+  font-style: italic;
+}
